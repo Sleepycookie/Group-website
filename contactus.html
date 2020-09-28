@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/contactus.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+
+  <nav>
+    <img src="Images/logo.png">
+    <input type="checkbox" id="res-menu">
+    <label for="res-menu">
+        <i class="fa fa-bars" id="sign-one"></i>
+        <i class="fa fa-times" id="sign-two"></i>
+    </label>
+
+    <ul>
+        <li><a href="index.html">Hem</a></li>
+        <li><a href="services.html">Tjänster</a></li>
+        <li><a href="Om oss.html">Om oss</a></li>
+        <li><a href="contactus.html">Kontakt</a></li>
+    </ul>
+</nav>
+
+    <header>
+        
+        <img class="bakgrund-header" src="Images/backgroundheader.jpg" alt="våra tjänster">
+
+        <h1 class="header-text animate_animated animate_fadeIn">Låt oss rensa ditt huvud, och kanske vardagsrummet.</h1>
+        <br>
+        <br>
+        <!-- <h2 class="header-text2 animate_animated animate_fadeIn">Hjälp oss rensa ditt huvud, och kanske vardagsrummet</h2> -->
+
+    </header>
+
+    <div class="storRuta">
+        <div class="ruta-1"><a href="#">Vanliga frågor</a></div>
+        <div class="ruta-2"><a href="#">Jobba hos oss</a></div>
+        <div class="ruta-3"><a href="#">Vart finns vi?</a></div>
+    </div>
+
+    <div class="mainContent">
+
+        <div class="formRuta">
+            <form class="form-area" action="">
+                <div class="msg-area">
+                    <label for="msg">Meddelande</label>
+                    <textarea placeholder="Dela med dig av dina synpunkter och eventuella problem." id="msg"></textarea>
+                </div>
+                <div class="details-area">
+                    <label for="name">Förnamn</label>
+                    <input placeholder="" type="text" name="" id="name" required>
+
+                    <label for="lname">Efternamn</label>
+                    <input type="text" name="" id="lname" required>
+
+                    <label for="phone">Telefonnummer</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+                    
+                  
+                    <label for="email">Email</label>
+                    <input type="email" name="" id="email" required>
+
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+
+
+        <div class="covidRuta"><img src="Images/corona.jpg" alt="tips"><a href="#"><h1 class="covid-tips" >Är du orolig över att någon smittad kommer hem till dig? Klicka här för att se hur vår personal testas!</h1></a></div>
+    </div>
+
+    <!-- FOOTER!! -->
+
+    <div class="footer">
+        <div class="inner_footer">
+          <div class="logo_container">
+            <img src="Images/logo2.png">
+          </div>
+          <div class="footer_third">
+            <h1>Uppgifter</h1>
+            <a href="#">Allmänna Villkor</a>
+            <a href="#">integritetspolicy</a>
+          </div>
+      
+          <div class="footer_third">
+            <h1>Städgruppen</h1>
+            <a href="index.html">Hem</a>
+            <a href="services.html">Tjänster</a>
+            <a href="Om oss.html">Om oss</a>
+            <a href="Kontakt.html">Kontakt</a>
+          </div>
+      
+          <div class="footer_third">
+            <h1>Följ oss</h1>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+      
+            <span>
+              Sveavägen 20<br>
+              155 55, Stockholm<br>
+              info@stadgruppen.se<br>
+            </span>
+          </div>
+        </div>
+      </div>
+      <!-- FOOTER SLUTAR!! -->
+
+
+</body>
+</html>
