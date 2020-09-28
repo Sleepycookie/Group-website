@@ -21,6 +21,7 @@ nav{
 }
 
 nav img{
+    margin-top: 10px;
     width: 150px;
     position: absolute;
     left: 12%;
@@ -65,6 +66,8 @@ nav ul li a:hover:before{
   transform-origin: left;
  }
 
+
+
 /* Navbar slutar */
 
 header {
@@ -76,10 +79,7 @@ header {
     width: 100%;
     height: 100%;
     background-size: cover;
-    /* opacity: 0.5; */
-    /* background-color: #fff; */
-    
-    
+    filter: brightness(90%);  
 }
 
 /* Header text */
@@ -88,7 +88,6 @@ header {
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /* background-color: white; opacity: 0.1; */
     color:#3883e6;
     font-size: 3.5rem;
     font-family: 'Ubuntu', sans-serif;
@@ -111,7 +110,6 @@ header {
 /* Vanliga frågor*/
 
 .storRuta {
-    /* border: 1px solid black; */
     justify-content: space-between;
     margin-top: 100px;
     display: flex;
@@ -127,39 +125,22 @@ header {
     justify-content: center;
     height: 80%;
     width: 400px;
-    border: 2px solid whitesmoke;
-    background-color: #426CB4;;
-    color: white;
-    font-size: 20px;
-    border-radius: 10%;
+    border: 2px solid #426CB4;
+    background-color: white;
+    font-size: 23px;
+    border-radius: 10px;
+    margin-left: 10px;
 }
 
 .ruta-1 a {
-    color:white;
+    color: #426CB4;
     text-decoration: none;
-    /* text-transform: uppercase;   */
 }
 
 .ruta-1 a:hover {
     text-decoration: underline;
 }
 
-/* .ruta-1 a:before {
-    position: absolute;
-    left:0;
-    bottom: 0;
-    height: 2px;
-    width: 100%;
-    content: '';
-    transform: scalex(0);
-    transform-origin: right;
-    transition: transform .4s linear;
-}
-
-.ruta-1 a:hover:before {
-    transform: scalex(1);
-    transform-origin: left;
-} */
 
 .ruta-2 {
     display: flex;
@@ -168,15 +149,14 @@ header {
     justify-content: center;
     height: 80%;
     width: 400px;
-    border: 2px solid whitesmoke;
-    background-color: #426CB4;;
-    color: white;
-    font-size: 20px;
-    border-radius: 10%;
+    border: 2px solid #426CB4;
+    background-color: white;
+    font-size: 23px;
+    border-radius: 5px;
 }
 
 .ruta-2 a {
-    color: whitesmoke;
+    color: #426CB4;
     text-decoration: none;
 
 }
@@ -193,15 +173,15 @@ header {
     justify-content: center;
     height: 80%;
     width: 400px;
-    border: 2px solid whitesmoke;
-    background-color: #426CB4;;
-    color: white;
-    font-size: 20px;
-    border-radius: 10%;
+    border: 2px solid #426CB4;
+    background-color: white;
+    font-size: 23px;
+    border-radius: 10px;
+    margin-right: 5px;
 }
 
 .ruta-3 a {
- color: whitesmoke;
+ color: #426CB4;
  text-decoration: none;
 
 }
@@ -213,6 +193,7 @@ header {
 
 /* Vanliga frågor slutar */
 
+/* kontakt formulär börjar*/
 
 .mainContent {
     display: flex;
@@ -285,7 +266,6 @@ header {
 
 
 .covidRuta {
-    /* border: 1px solid black; */
     height: 100%;
     width: 50%;
     margin-right: 10px;
@@ -316,6 +296,7 @@ background-size: cover;
     text-decoration: underline;
 }
 
+/* kontakt formulär slutar*/
 
 
 /* footer */
@@ -391,6 +372,75 @@ background-size: cover;
     font-weight: 200;
     display: block;
   }
+  
+  /*footer slutar */
+
+  /* HAMBURGAR MENY KOD*/
+
+label #sign-one,
+label #sign-two{
+    font-size: 20px;
+    color: #426CB4;
+    float: right;
+    line-height: 80px;
+    margin-right: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+#res-menu{
+    display: none;
+}
+
+
+
+
+@media screen and (max-width:960px) {
+  .service-box{
+    max-width: 45%;
+  }
+
+  label #sign-one{
+      display: block;
+  }
+  nav ul{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: white;
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: .5s;
+      z-index: 10;
+  }
+
+  nav ul li{
+      display: block;
+      margin: 60px 0;
+      line-height: 30px;
+  }
+
+  nav ul li a{
+      font-size: 20px;
+  }
+
+  #res-menu:checked ~ ul{
+      left: 0;
+  }
+
+  #res-menu:checked ~ label #sign-one{
+      display: none;
+  }
+
+  #res-menu:checked ~ label #sign-two{
+      display: block;
+  }
+}
+
+/* hamburgar meny slutar */
+ 
+
 
   @media(max-width: 600px){
     .footer .inner_footer{

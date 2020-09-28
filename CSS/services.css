@@ -16,7 +16,7 @@
       left: 12%;
   }
 
-  /* nav ul{
+  nav ul{
       float: right;
       margin-right: 25px;
   }
@@ -53,7 +53,7 @@
   nav ul li a:hover:before{
     transform:scalex(1);
     transform-origin: left;
-  } */
+  }
 
   .services-section{
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/bg.jpg);
