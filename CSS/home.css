@@ -6,7 +6,7 @@
 body{
     text-align: center;
     
-    background-iimage:linear-gradient(rgba) url("../Images/backgroundheader.jpg") no-repeat center center fixed ;
+    background: url("../Images/backgroundheader.jpg") no-repeat center center fixed ;
     
     
     background-size: cover;
