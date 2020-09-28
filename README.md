@@ -23,3 +23,10 @@ Färger: blå och som ger en bild av trygghet, renlighet och pålitlighet.
 #ffffff - WHITE primar color
 
 Fonter: Ubuntu Light 300, sans-serif
+
+
+slutlig ändring:
+normalize länk
+kontakta oss byta text
+alla a tags har samma namn
+fixa storlek på loggan
