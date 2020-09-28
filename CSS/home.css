@@ -2,9 +2,11 @@
     margin: 0px auto;
     padding: 0px auto;
 }
+
 body{
     text-align: center;
     background: url("../Images/backgroundheader.jpg") no-repeat center center fixed ;
+    
     background-size: cover;
     -webkit-background-size:cover;
     -moz-background-size:cover;
@@ -14,7 +16,7 @@ body{
 #website{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 500px 100px 100px 500px 500px;
+    grid-template-rows: 100px 500px 100px 500px 500px;
 
     width:100%;
     height:1700px;
@@ -35,22 +37,22 @@ body{
 }
 #header h2{
     font-size: 50px;
-    margin-top: 300px;
+    margin-top: 200px;
     font-family:'Ubuntu';
     letter-spacing: 2px;
     margin-left: 150px;
     color: #426cb4;
 }
-
+nav img{
+    margin-top: 20px;
+    width: 150px;
+    position: absolute;
+    left: 12%;
+}
 #nav{
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0%;
-    
-
-
+   
     grid-column: 1/6;
-    /*background: #0d8abc;*/
+    background: #ffffff;
     width: 100%;
     font-family:'Ubuntu';
     
@@ -60,10 +62,9 @@ body{
     display: grid;
     grid-template-columns: repeat(8,1fr);
     list-style: none;
-    margin-top: 60px;
+    margin-top: 40px;
   
 }
-
 
 #nav ul li:hover a{
     color: black;
@@ -71,12 +72,14 @@ body{
     
 }
 #nav ul li a{
-    color: white;
+
+    color:#426cb4;
     font-weight: bold;
     font-size: 20px;
     text-decoration: none;
     letter-spacing: 2px;
-    background: #426cb4;
+    
+    
     border-radius: 5px 5px 5px 5px;
     
 }
@@ -106,6 +109,11 @@ h1:hover{
     /*background:#426CB4;*/
     width: 100%;
 
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0.1%;
+    
+
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     font-family: 'ubuntu';
@@ -114,38 +122,38 @@ h1:hover{
 .box1{
     /*border: 1px solid black;*/
     width: 350px;
-    height: 300px;
-    margin-top: 100px;
-    background-color: #ffffff;
+    height: 200px;
+    margin-top: 70px;
+    background-color: #e0dddd;
     color: #489cc1;
     border-radius: 40px 40px 40px 40px;
 }
 .box1  h2{
-    margin: 100px;
+    margin: 70px;
 }
 .box2{
     /*border: 1px solid black;*/
     width: 350px;
-    height: 300px;
-    margin-top: 100px;
-    background-color: #ffffff;
+    height: 200px;
+    margin-top: 70px;
+    background-color: #e0dddd;
     color: #489cc1;
     border-radius: 40px 40px 40px 40px;
 }
 .box2 h2{
-    margin: 100px;
+    margin: 70px;
 }
 .box3{
     /*border: 1px solid black;*/
     width: 350px;
-    height: 300px;
-    margin-top: 100px;
-    background-color: #ffffff;
+    height: 200px;
+    margin-top: 70px;
+    background-color: #e0dddd;
     color: #489cc1;
     border-radius: 40px 40px 40px 40px;
 }
 .box3 h2{
-    margin: 100px;
+    margin: 70px;
 }
 #footer{
     grid-column: 1/6;
@@ -160,13 +168,13 @@ h1:hover{
 }
 
 .f-one{
-    margin: 100px;
+    margin: 150px;
 }
 .f-one h3{
     letter-spacing: 2px;
 }
 .extra{
-    margin: 80px;
+    margin: 150px;
 }
 /*.f-section{
     margin: 50px;
@@ -186,7 +194,7 @@ h1:hover{
 }
 
 .f-nav{
-    margin: 100px;
+    margin: 150px;
     
     
 }
