@@ -4,7 +4,7 @@
 }
 body{
     text-align: center;
-    background: url("../Images/background_header.jpg") no-repeat center center fixed ;
+    background: url("../Images/background\ header.jpg") no-repeat center center fixed ;
     background-size: cover;
     -webkit-background-size:cover;
     -moz-background-size:cover;
