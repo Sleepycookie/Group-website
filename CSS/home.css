@@ -7,7 +7,7 @@ body{
     text-align: center;
     
     background: url("../Images/backgroundheader.jpg") no-repeat center center fixed ;
-    
+    /*background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../Images/backgroundheader.jpg);*/
     
     background-size: cover;
     -webkit-background-size:cover;
