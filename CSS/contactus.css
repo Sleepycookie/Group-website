@@ -21,8 +21,7 @@ nav{
 }
 
 nav img{
-    margin-top: 10px;
-    width: 150px;
+    width: 200px;
     position: absolute;
     left: 12%;
 }
@@ -71,7 +70,7 @@ nav ul li a:hover:before{
 /* Navbar slutar */
 
 header {
-    height: 900px;
+    height: 800px;
     width: 100%;
 }
 
@@ -79,117 +78,120 @@ header {
     width: 100%;
     height: 100%;
     background-size: cover;
-    filter: brightness(90%);  
+    filter: brightness(70%);  
 }
 
 /* Header text */
 .header-text {
-    position: absolute;
-    top: 60%;
-    left: 50%;
+    position: relative;
+    bottom: 65%;
     transform: translate(-50%, -50%);
-    color:#3883e6;
+    color:#ffffff;
     font-size: 3.5rem;
     font-family: 'Ubuntu', sans-serif;
+    text-shadow: 2px 2px #426CB4;
+    text-align: center;
      
 }
 
 /* Header text */
 .header-text2 {
-    position: absolute;
-    top: 60%;
-    left: 60%;
+    position: relative;
+    bottom: 66%;
     transform: translate(-50%, -50%);
-    color:#3883e6;
-    font-size: 3.5rem;
+    color:#ffffff;
+    font-size: 1.5rem;
     font-family: 'Ubuntu', sans-serif;  
     text-align: center;
+    text-shadow: 2px 2px #426CB4;
     
+}
+
+.button{
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn{
+    border: 2px solid #426CB4;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #426CB4;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+.btn:hover{
+    border: 2px solid #1F5ECB;
+    color: #ffffff;
+    background-color: #1F5ECB;
+    transition: all ease 0.6s;
+
+}
+
+.btn2{
+    border: 2px solid #ffffff;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.btn2:hover{
+    color: #161616;
+    background-color: #ffffff;
+    transition: all ease 0.6s;
 }
 
 /* Vanliga frågor*/
 
-.storRuta {
+.title{
+    color: #426CB4;
+}
+
+.title2{
+    text-align: center;
+    color: #426CB4;
+}
+
+.border{
+    width: 200px;
+    height: 2px;
+    background: #426CB4;
+    margin: 30px auto;
+  }
+
+.fragor{
+    text-align: center;
+    padding: 4% 15%;
+}
+
+.vanliga_fragor {
+    margin-top: 35px;
+    display: flex;
     justify-content: space-between;
-    margin-top: 100px;
-    display: flex;
-    flex-wrap: wrap;
-    height: 500px;
-
 }
 
-.ruta-1 {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    height: 80%;
-    width: 400px;
-    border: 2px solid #426CB4;
-    background-color: white;
-    font-size: 23px;
-    border-radius: 10px;
-    margin-left: 10px;
+.vanliga_fragor .vanliga_fragor_item {
+    width: 30%;
+    border: 1px solid #F4F7FF;
+    box-shadow: 6px 6px 5px 0px rgba(66,108,180,1);
 }
 
-.ruta-1 a {
+.vanliga_fragor .vanliga_fragor_item img {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.vanliga_fragor .vanliga_fragor_item h3 {
     color: #426CB4;
-    text-decoration: none;
+    margin-bottom: 15px;
 }
-
-.ruta-1 a:hover {
-    text-decoration: underline;
-}
-
-
-.ruta-2 {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    height: 80%;
-    width: 400px;
-    border: 2px solid #426CB4;
-    background-color: white;
-    font-size: 23px;
-    border-radius: 5px;
-}
-
-.ruta-2 a {
-    color: #426CB4;
-    text-decoration: none;
-
-}
-
-.ruta-2 a:hover {
-    text-decoration: underline;
-}
-
-
-.ruta-3 {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    height: 80%;
-    width: 400px;
-    border: 2px solid #426CB4;
-    background-color: white;
-    font-size: 23px;
-    border-radius: 10px;
-    margin-right: 5px;
-}
-
-.ruta-3 a {
- color: #426CB4;
- text-decoration: none;
-
-}
-
-.ruta-3 a:hover {
-    text-decoration: underline;
-}
-
 
 /* Vanliga frågor slutar */
 
@@ -198,7 +200,7 @@ header {
 .mainContent {
     display: flex;
     height: 700px;
-    border: 1px white solid;
+    border: 30px white solid;
     background-color: white;
     margin-bottom: 40px;
 }
@@ -207,8 +209,7 @@ header {
     display: flex;
     background-color: #426CB4;
     padding: 1.9em;
-    height: 100%;
-    border-radius: 20px;   
+    height: 100%;   
 }
 
 .formRuta {
@@ -229,7 +230,7 @@ header {
 
 .msg-area > textarea {
     flex: 1;
-    min-width: 18em;
+    min-width: 30em;
     padding: 15px;
 }
 
@@ -241,7 +242,7 @@ header {
 
 .details-area input {
     width: 100%;
-    border-radius: 20px;
+    border-radius: 5px;
 
 }
 
@@ -254,13 +255,14 @@ header {
 .details-area button {
     background: white;
     color:#426CB4;
-    border-radius: 10px;
     font-size: 15px;
+    font-weight: bold;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 .formRuta label {
-    color: whitesmoke;
+    color: white;
 
 }
 
@@ -275,9 +277,12 @@ header {
 }
 
 .covidRuta img {
+    
 width: 100%;
 height: 100%;
 background-size: cover;
+filter: brightness(50%);
+
 }
 
 
@@ -372,6 +377,18 @@ background-size: cover;
     font-weight: 200;
     display: block;
   }
+
+  #insta{
+    color: #ffffff;
+  }
+
+  #fb{
+    color: #ffffff;
+  }
+
+  #twitter{
+    color: #ffffff;
+  }
   
   /*footer slutar */
 
@@ -391,6 +408,8 @@ label #sign-two{
 #res-menu{
     display: none;
 }
+
+
 
 
 
@@ -436,9 +455,70 @@ label #sign-two{
   #res-menu:checked ~ label #sign-two{
       display: block;
   }
+
+  .footer{
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    padding: 30px 0;
+    box-sizing: border-box;
+    background-color: #426CB4;
+
+  }
+
+  .inner_footer{
+    display: block;
+    margin: 0 auto;
+    width: 1000px;
+    height: 100%;
+  }
+
+  .inner_footer .logo_container{
+    width: 30%;
+    float: left;
+    height: 100%;
+    display: block;
+  }
+
+  .inner_footer .logo_container img{
+    width: 250px;
+    height: auto;
+  }
+
+  .inner_footer .footer_third h1{
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #ffffff;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .inner_footer .footer_third a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #ffffff;
+    display: block;
+    font-weight: 200;
+    width: 100%;
+    padding-bottom: 20px;
+  }
 }
 
 /* hamburgar meny slutar */
+
+@media screen and (max-width:768px) {
+
+    .footer .inner_footer{
+      width: 90%;
+    }
+
+    .inner_footer .logo_container,
+    .inner_footer .footer_third{
+      width: 100%;
+      margin-bottom: 30px;
+    }
+
  
 
 
@@ -462,6 +542,7 @@ label #sign-two{
     margin-left: 140px;
     padding: 10px;
   }
+}
 
 
 
