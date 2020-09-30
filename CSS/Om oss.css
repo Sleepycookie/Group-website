@@ -235,7 +235,7 @@ label #sign-one,
 
 .sidebar img {
     width: 100%;
-    height: 90%;
+    height: 100%;
 
 }
 
@@ -276,6 +276,7 @@ label #sign-one,
 
 .footer {
 grid-area: footer;
+margin-top: 50px;
 
     width: 100%;
     display: block;
