@@ -1,0 +1,6 @@
+[0930/001746.115:ERROR:registration_protocol_win.cc(103)] CreateFile: Det går inte att hitta filen. (0x2)
+[0930/001746.126:ERROR:registration_protocol_win.cc(103)] CreateFile: Det går inte att hitta filen. (0x2)
+[0930/001813.439:ERROR:registration_protocol_win.cc(103)] CreateFile: Det går inte att hitta filen. (0x2)
+[0930/093600.593:ERROR:registration_protocol_win.cc(103)] CreateFile: Det går inte att hitta filen. (0x2)
+[0930/093600.605:ERROR:registration_protocol_win.cc(103)] CreateFile: Det går inte att hitta filen. (0x2)
+[0930/093812.677:ERROR:registration_protocol_win.cc(103)] CreateFile: Det går inte att hitta filen. (0x2)
